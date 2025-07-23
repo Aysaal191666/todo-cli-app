@@ -12,7 +12,7 @@ def view_tasks():
     else:
         print("To-Do List:")
         for idx, task in enumerate(todo_list, 1):
-            print(f"{idx}. {task}")
+            print(f"{idx+1}. {task}")
 
 def delete_task(index):
     try:
